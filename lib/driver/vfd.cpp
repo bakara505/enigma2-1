@@ -394,53 +394,53 @@ void *start_loop(void *arg)
 	// display signon string
 	blocked = true;
 	#if defined (ENABLE_SPARK7162)
-		char str[] = "SPARK7162 ENIGMA2";
+		char str[] = "SPARK7162 OpenPLI4";
 	#elif defined (ENABLE_SPARK)
-		char str[] = "SPARK ENIGMA2";
+		char str[] = "SPARK OpenPLI4";
 	#elif defined (ENABLE_CUBEREVO)
-		char str[] = "CubeRevo Enigma2";
+		char str[] = "CubeRevo OpenPLI4";
 	#elif defined (ENABLE_CUBEREVO_MINI_FTA)
-		char str[] = "CubeRevo 200HD Enigma2";
+		char str[] = "CubeRevo 200HD OpenPLI4";
 	#elif defined (ENABLE_CUBEREVO_250HD)
-		char str[] = "CubeRevo 250HD Enigma2";
+		char str[] = "CubeRevo 250HD OpenPLI4";
 	#elif defined (ENABLE_CUBEREVO_MINI)
-		char str[] = "CubeRevo Mini Enigma2";
+		char str[] = "CubeRevo Mini OpenPLI4";
 	#elif defined (ENABLE_CUBEREVO_MINI2)
-		char str[] = "CubeRevo Mini II Enigma2";
+		char str[] = "CubeRevo Mini II OpenPLI4";
 	#elif defined (ENABLE_CUBEREVO_2000HD)
-		char str[] = "CubeRevo 2000HD Enigma2";
+		char str[] = "CubeRevo 2000HD OpenPLI4";
 	#elif defined (ENABLE_CUBEREVO_3000HD)
-		char str[] = "CubeRevo 3000HD Enigma2";
+		char str[] = "CubeRevo 3000HD OpenPLI4";
 	#elif defined (ENABLE_FS9000)
-		char str[] = "FS9000/9200 Enigma2";
+		char str[] = "FS9000/9200 OpenPLI4";
 	#elif defined (ENABLE_HS9510)
-		char str[] = "HS9510 Enigma2";
+		char str[] = "HS9510 OpenPLI4";
 	#elif defined (ENABLE_HS8200)
-		char str[] = "HS8200 Enigma2";
+		char str[] = "HS8200 OpenPLI4";
 	#elif defined (ENABLE_HS7119)
-		char str[] = "7119 Enigma2";
+		char str[] = "7119 OpenPLI4";
 	#elif defined (ENABLE_HS7420)
-		char str[] = "HS7420 Enigma2";
+		char str[] = "HS7420 OpenPLI4";
 	#elif defined (ENABLE_HS7810A)
-		char str[] = "7810 Enigma2";
+		char str[] = "7810 OpenPLI4";
 	#elif defined (ENABLE_HS7429)
-		char str[] = "HS7429 Enigma2";
+		char str[] = "HS7429 OpenPLI4";
 	#elif defined (ENABLE_HS7819)
-		char str[] = "7819 Enigma2";
+		char str[] = "7819 OpenPLI4";
 	#elif defined (ENABLE_UFS910)
-		char str[] = "UFS910 Enigma2";
+		char str[] = "UFS910 OpenPLI4";
 	#elif defined (ENABLE_UFS912)
-		char str[] = "UFS912 Enigma2";
+		char str[] = "UFS912 OpenPLI4";
 	#elif defined (ENABLE_UFS913)
-		char str[] = "UFS913 Enigma2";
+		char str[] = "UFS913 OpenPLI4";
 	#elif defined (ENABLE_UFS922)
-		char str[] = "UFS922 Enigma2";
+		char str[] = "UFS922 OpenPLI4";
 	#elif defined (ENABLE_VITAMIN_HD5000)
 		char str[] = "Vitamin E2";
 	#elif defined (ENABLE_ADB_BOX)
-		char str[] = "nBox Enigma2";
+		char str[] = "nBox OpenPLI4";
 	#elif defined (ENABLE_PACE7241)
-		char str[] = "Pace 7241 Enigma2";
+		char str[] = "Pace 7241 OpenPLI4";
 	#elif defined (ENABLE_HL101)
 		char str[] = "HL101 E2";
 	#elif defined (ENABLE_VIP1_V1)
@@ -451,15 +451,15 @@ void *start_loop(void *arg)
 		char str[] = "VIP2 E2";
 	#elif defined (ENABLE_OPT9600) \
 	 ||   defined (ENABLE_OPT9600PRIMA)
-		char str[] = "HD 9600 Enigma2";
+		char str[] = "HD 9600 OpenPLI4";
 	#elif defined (ENABLE_OPT9600MINI)
-		char str[] = "Mini Enigma2";
+		char str[] = "Mini OpenPLI4";
 	#elif defined (ENABLE_ATEMIO520)
-		char str[] = "520 HD Enigma2";
+		char str[] = "520 HD OpenPLI4";
 	#elif defined (ENABLE_HCHS8100)
 		char str[] = "HS8100 CI E2";
 	#else
-		char str[] = "SH4 Git Enigma2";
+		char str[] = "SH4 Git OpenPLI4";
 	#endif
 
 	int vfddev = open ("/dev/vfd", O_WRONLY);
