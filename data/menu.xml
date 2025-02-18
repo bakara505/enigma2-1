@@ -42,6 +42,12 @@
 				<item level="1" entryID="autolanguage_setup"><setup id="autolanguagesetup"/></item>
 				<item level="0" entryID="av_setup"><setup id="avsetup"/></item>
 				<item level="1" entryID="rfmod_setup" requires="RfModulator"><setup id="RFmod"/></item>
+				<item text="Cron Manager" entryID="cron_manager"><screen module="CronManager" screen="CronManager"/></item>
+                               <item text="Mount Manager" entryID="mount_manager"><screen module="MountManager" screen="MountSetup"/></item>
+                               <item text="Swap Manager" entryID="swap_manager"><screen module="SwapManager" screen="Swap"/></item>
+                                <item text="Job Manager" entryID="ScriptRunner"><screen module="ScriptRunner" screen="ScriptRunner"/></item>
+                                <item text="OScam Info" entryID="OScamInfo"><screen module="OScamInfo" screen="OscamInfoMenu"/></item>
+		                <item level="0" text="Wireless Tools" entryID="systemtools"><screen module="Lan" screen="ConfigOptions"/></item>
 				<menu level="0" text="Harddisk" entryID="hardisk_selection" requires="Harddisk">
 					<id val="harddisk"/>
 					<item level="1" entryID="harddisk_setup"><setup id="harddisk"/></item>
